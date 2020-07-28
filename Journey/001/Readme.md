@@ -1,5 +1,5 @@
 **Add a cover photo like:**
-![placeholder image](https://unsplash.com/photos/hHntcuiLbOg)
+![placeholder image](https://images.unsplash.com/photo-1565264316550-a1811f0c4c75?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3016&q=80)
 
 # New post title here
 
