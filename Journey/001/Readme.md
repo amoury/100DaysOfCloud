@@ -23,4 +23,11 @@ In a typical cluster, there is one Master node and multiple Worker nodes. Master
     - Node-Controller - Monitors nodes
     - Replication-Controller - Monitor pods and makes sure the desired number of pods are always up and running.
 4. **Kube-scheduler** - Decides which containers / pods goes on which node (ship)
-5. Kube-Proxy
+
+
+All nodes have following components -
+
+1. **Container-runtime** - Popular one is Docker
+2. **Kubelet** - Sending reports, liasing with master, managing the whole node. Listens to instructions from api-server and creates or destroys containers.
+3. **Kube-proxy** - Monitors the rules configured and allows containers to communicate with each other
+
