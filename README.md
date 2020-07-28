@@ -14,16 +14,17 @@
 Fill in your details where you see this icon ✍️
 We have provided a sample Day Journey entry staring at 0. You can delete this example.
 
-## [✍️ Your Name]'s Cloud Journey
+## Amoury's Cloud Journey
 
-[✍️ Introduce yourself]
+I am a self-taught Software Engineer - mainly focused on the Frontend. Cloud Computing is something that is an exciting topic for me and I am on my journey to learn and expand my skills in cloud computing.
 
-[✍️ Tell us why you started this challenge]
+I started this challenge as a way to stay on track and keep myself motivated to reach the finish line / achieve my end goal. Consistency is the key and adding some progress / learning something new everyday, is important. 
 
-[✍️ Tell us where you want to be at the end of the challenge]
+Through this challenge, I aim to take the exam and get certified as a Kubernetes Administrator (CKA) by Linux Foundation and CNCF within 30-40 days of the challenge and by the end of 100 days, I aim to finish preparation for Google Cloud Associate Engineer certification. Asking for too much? Don't know. Let's see how it goes.
 
-- [✍️ Link to your Twitter](https://twitter.com/username)
-- [✍️ Link to your LinkedIn](https://www.linkedin.com/in/username)
+
+- [Twitter](https://twitter.com/amourycodes)
+- [LinkedIn](https://www.linkedin.com/in/amoury)
 
 ## Stepping out the door
 
