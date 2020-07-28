@@ -5,48 +5,22 @@
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Having a deeper understanding of the Kubernetes Architecture is important especially if you are aiming for a job as a DevOps Engineer or you are planning to appear for CKA exam i.e. Certified Kubernetes Administrator. 
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+I assume you have the knowledge of containers in general and Docker in particular.
 
-## Use Case
+## Notes about the Kubernetes Architecture
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+`Nodes` are the most primary components of Kubernetes. So what is a Node? Node is simply a virtual or a physical machine / computer. Primarily there are two type of nodes in a cluster - **Master** node and a **Worker** node. The difference between a Master and a Worker node is the components installed on each node. 
 
-## Cloud Research
+In a typical cluster, there is one Master node and multiple Worker nodes. Master node contains control plane components - 
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
-
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+1. **Kube-apiserver** - Orchestrates all operations within the cluster. If Master node is the brain of the cluster, kube-apiserver is the left half of the brain.
+2. **ETCD** - key-value store
+3. **Controllers** - 
+    - Node-Controller - Monitors nodes
+    - Replication-Controller - Monitor pods and makes sure the desired number of pods are always up and running.
+4. **Kube-scheduler** - Decides which containers / pods goes on which node (ship)
+5. Kube-Proxy
