@@ -1,52 +1,16 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+![placeholder image](https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80)
 
-# New post title here
+# Kubernetes Scheduling Approaches
 
 ## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+Monioring the cluster and getting the container logs are important for an administrator.
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+I assume you have the knowledge of containers in general and Docker in particular.
 
-## Use Case
+## Notes about the Kubernetes Architecture
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+**Metrics Server** is the very basic and lightweight monitoring solution that we need to install. Then after sometime, typing the commands `k top nodes` or `k top pods` gives us analytics about the CPU and memory usage.
 
-## Cloud Research
-
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
-
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+**Logging** - We can get the container logs using the command `k logs <pod-name> <container-name>`. Adding `-f` flag to the command enables us to watch the logs in real time.
