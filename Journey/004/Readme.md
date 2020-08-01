@@ -24,4 +24,6 @@ The command is `kubectl drain <node-name>`
 
 **cordoning** 
 
-`kubectl cordon NODE` - Mark node as unschedulable.
+`kubectl cordon NODE` - Mark node as unschedulable. It will not empty the node, it will just lock the node so that no new pod can be scheduled on this node.
+
+To remove **cordoning** we can use **uncordon**  - `kubectl uncordon NODE`.
