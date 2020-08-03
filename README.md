@@ -33,7 +33,7 @@ Through this challenge, I aim to take the exam and get certified as a Kubernetes
 - [ ] ☁️ 3 > [Monitoring the cluster and logging from containers](Journey/003/Readme.md)
 - [ ] ☁️ 4 > [Cluster Maintenance - Procedure](Journey/004/Readme.md)
 - [ ] ☁️ 5 > [Cluster Maintenance - Software Upgrades](Journey/005/Readme.md)
-- [ ] ☁️ 6 > [](Journey/006/Readme.md)
+- [ ] ☁️ 6 > [Cluster Maintenance - Backup & Restore](Journey/006/Readme.md)
 - [ ] ☁️ 7 > [](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [](Journey/008/Readme.md)
 - [ ] ☁️ 9 > [](Journey/009/Readme.md)
