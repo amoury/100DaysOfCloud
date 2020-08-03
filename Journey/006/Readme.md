@@ -1,4 +1,4 @@
-![placeholder image](https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80)
+![placeholder image](https://images.unsplash.com/photo-1547004188-83e2bf446b24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3250&q=80)
 
 # Kubernetes Cluster Maintenance
 
