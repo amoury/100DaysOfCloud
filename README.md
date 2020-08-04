@@ -35,7 +35,7 @@ Through this challenge, I aim to take the exam and get certified as a Kubernetes
 - [ ] ☁️ 5 > [Cluster Maintenance - Software Upgrades](Journey/005/Readme.md)
 - [ ] ☁️ 6 > [Cluster Maintenance - Backup & Restore](Journey/006/Readme.md)
 - [ ] ☁️ 7 > [Security](Journey/007/Readme.md)
-- [ ] ☁️ 8 > [](Journey/008/Readme.md)
+- [ ] ☁️ 8 > [Storage](Journey/008/Readme.md)
 - [ ] ☁️ 9 > [](Journey/009/Readme.md)
 - [ ] ☁️ 10 > [](Journey/010/Readme.md)
 
