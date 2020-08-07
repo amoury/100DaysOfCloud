@@ -33,6 +33,14 @@ So in this case, adding `/24` is like telling the computer that any address from
 In Linux, by default packets are not forwarded to another interface i.e. packets received on `eth0` will not be forwarded to `eth1` automatically. To enable forwarding from one interface to another, check the configuration in the file on path `cat /proc/sys/net/ipv4/ip_forward`. By default, the value is set to 0. Change it to 1 and save the file.
 
 
+### DNS Resolution
+
+- Instead of adding thousands of entries in the `/etc/hosts` file on all the different hosts in the network, we create a create DNS server and point the hosts to lookup in this DNS server.
+
+Every host has a DNS resolution configuration file at `/etc/resolve.conf`. You make an entry into this file specifying the address of the DNS server.
+
+Now everytime the host comes across a host name that it does not know about, it automatically reaches out to this DNS server.
+
 
 ### Handy commands
 
