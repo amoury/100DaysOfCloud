@@ -28,16 +28,16 @@ Through this challenge, I aim to take the exam and get certified as a Kubernetes
 
 ## Stepping out the door
 
-- [ ] ☁️ 1 > [Reviewed the various components of Kubernetes Architecture](Journey/001/Readme.md)
-- [ ] ☁️ 2 > [Various approaches to schedule pods on particular nodes](Journey/002/Readme.md)
-- [ ] ☁️ 3 > [Monitoring the cluster and logging from containers](Journey/003/Readme.md)
-- [ ] ☁️ 4 > [Cluster Maintenance - Procedure](Journey/004/Readme.md)
-- [ ] ☁️ 5 > [Cluster Maintenance - Software Upgrades](Journey/005/Readme.md)
-- [ ] ☁️ 6 > [Cluster Maintenance - Backup & Restore](Journey/006/Readme.md)
-- [ ] ☁️ 7 > [Security](Journey/007/Readme.md)
-- [ ] ☁️ 8 > [Storage](Journey/008/Readme.md)
-- [ ] ☁️ 9 > [Networking](Journey/009/Readme.md)
-- [ ] ☁️ 10 > [Networking](Journey/010/Readme.md)
+- [x] ☁️ 1 > [Reviewed the various components of Kubernetes Architecture](Journey/001/Readme.md)
+- [x] ☁️ 2 > [Various approaches to schedule pods on particular nodes](Journey/002/Readme.md)
+- [x] ☁️ 3 > [Monitoring the cluster and logging from containers](Journey/003/Readme.md)
+- [x] ☁️ 4 > [Cluster Maintenance - Procedure](Journey/004/Readme.md)
+- [x] ☁️ 5 > [Cluster Maintenance - Software Upgrades](Journey/005/Readme.md)
+- [x] ☁️ 6 > [Cluster Maintenance - Backup & Restore](Journey/006/Readme.md)
+- [x] ☁️ 7 > [Security](Journey/007/Readme.md)
+- [x] ☁️ 8 > [Storage](Journey/008/Readme.md)
+- [x] ☁️ 9 > [Networking](Journey/009/Readme.md)
+- [x] ☁️ 10 > [Networking](Journey/010/Readme.md)
 
 ## Walking down the road
 
