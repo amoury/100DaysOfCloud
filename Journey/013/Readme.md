@@ -18,4 +18,8 @@ So we can reach out to the pod using the service name - `curl http://web-service
 
 ### What happens when the service is located in a different Namespace - 
 
-Let's say our `web-service` is located in the namespace **apps** then to reach that service we would have to reach out to `curl http://web-service.apps` 
+Let's say our `web-service` is located in the namespace **apps** then to reach that service we would have to reach out to `curl http://web-service.apps`. Below is the kube DNS table and this is how it resolves any service 
+
+<img width="598" alt="Screen Shot 2020-08-12 at 5 41 20 AM" src="https://user-images.githubusercontent.com/16633104/89965736-8aaf4400-dc5e-11ea-9bea-e443641bc418.png">
+
+
