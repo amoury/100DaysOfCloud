@@ -1,52 +1,20 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+![placeholder image](https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80)
 
-# New post title here
+# Kubernetes Networking - Networking Namespaces
 
 ## Introduction
+This section deals with Kubernetes Networking.
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+## Notes about the Kubernetes Networking Namespaces
 
-## Prerequisite
+When a container is created, we create a network namespace for it so it has no visibility to the network interfaces on the host machine. The container network namespace has its own virtual network interface.
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+## CoreDNS in K8s
 
-## Use Case
+So how can we reach from one pod to another pod? We add an entry into the /etc/hosts file of one pod for the other pods that needs to reach. But this approach is not practical as there are 100 of pods created all the time.
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+So the solution is to add the ipaddresses to a common DNS server and point the pod to lookup in this server by adding an entry in the `/etc/resolve.conf` file with `nameserver <ip-address>`
 
-## Cloud Research
+Prior to K8s v1.12 - the DNS server was called `kube DNS` whereas after v1.12, it is called `Core DNS`.
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
-
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+CoreDNS is deployed as a deployment in the cluster with 2 replicas. This pod run Core DNS executable. When a CoreDNS pod is created, there is also a ClusterIP type service called `kube-dns` created, to make it accessible from other pods.
