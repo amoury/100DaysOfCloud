@@ -1,4 +1,4 @@
-# Kubernetes Networking - Ingress
+# Kubernetes Security - Certificates
 
 ## Introduction
 This section deals with Kubernetes Networking.
