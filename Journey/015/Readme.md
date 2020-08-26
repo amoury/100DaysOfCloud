@@ -27,3 +27,7 @@ This section deals with Kubernetes Networking.
 2. Kube-Scheduler - (`scheduler.crt` & `scheduler.key`)
 3. Kube-Controller-Manager => `controller-manager.crt` and `controller-manager.key`
 4. Kube-Proxy => `kube-proxy.crt` and `kube-proxy.key`
+
+
+### Generate the certificates
+
