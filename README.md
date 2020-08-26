@@ -45,7 +45,7 @@ Through this challenge, I aim to take the exam and get certified as a Kubernetes
 - [ ] ☁️ 12 > [Service Networking](Journey/012/Readme.md)
 - [ ] ☁️ 13 > [Kubernetes DNS](Journey/013/Readme.md)
 - [ ] ☁️ 14 > [Core DNS](Journey/014/Readme.md)
-- [ ] ☁️ 15 > [Ingress](Journey/015/Readme.md)
+- [ ] ☁️ 15 > [Certificates in Kubernetes](Journey/015/Readme.md)
 - [ ] ☁️ 16 > [](Journey/016/Readme.md)
 - [ ] ☁️ 17 > [](Journey/017/Readme.md)
 - [ ] ☁️ 18 > [](Journey/018/Readme.md)
