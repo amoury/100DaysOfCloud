@@ -31,3 +31,19 @@ This section deals with Kubernetes Networking.
 
 ### Generate the certificates
 
+Step 1: Create a private key using `openssl` command - `openssl genrsa -out ca.key 2048`
+
+Step 2: Generate Signing request - `openssl req -new -key ca.key "/CN=KUBERNETES-CA" -out ca.csr`. The Certificate Signing Request(CSR) is like your certificate but without the signature. (CN - Common Name)
+
+Step 3: Sign the certificate using `openssl x509 -req -in ca.csr -signkey ca.key -out ca.crt`. Since this certificate is for CA (Certificate Authority) itself, it is self signed.
+
+If you are generating certificate for some other entity, you have to add the Certificate signing authority -
+
+`openssl x509 -req -in admin.csr -CA ca.crt -CAkey ca.key -out admin.crt`
+
+
+
+
+
+
+
