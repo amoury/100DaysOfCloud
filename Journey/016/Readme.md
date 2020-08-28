@@ -12,5 +12,7 @@ When a user wants to connect to the cluster, they need a certificate approved fr
 
 CA server - 
 
-CA is basically a key and a pair of certificate file we generated. Anyone having access to these files can sign the certificates for other componenets
+CA is basically a key and a pair of certificate file we generated. Anyone having access to these files can sign the certificates for other components. So these files need to be protected and hence we keep them in a fully secured server. That server becomes the CA server.
+
+Currently we store thse files on the master node, so master node also becomes the CA server.
 
