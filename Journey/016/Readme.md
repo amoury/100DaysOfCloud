@@ -1,52 +1,16 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
+# Kubernetes Security - Certificates API
 
 ## Introduction
+This section deals with Kubernetes Certificates API.
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+## Notes about the Kubernetes Certificates
 
-## Prerequisite
+**Manual Way to create and assign certificates for new user** - 
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+When a user wants to connect to the cluster, they need a certificate approved from the CA server. So the new user first creates her own private key, generates the Certificate Signing Request (CSR) and sends it to the admin. The admin then takes the signing request to the CA server, gets it signed by the CA server using his Root certificate and private key, thereby generating a certificate and then sends it back to the new user.
 
-## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+CA server - 
 
-## Cloud Research
+CA is basically a key and a pair of certificate file we generated. Anyone having access to these files can sign the certificates for other componenets
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
-
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
